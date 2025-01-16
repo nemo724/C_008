@@ -10,7 +10,7 @@ void output_Cappucino(const char[][10], int[]);
 
 
 void output_Americano(const char SizeName[][10], int Price_of_Americano[])
-{printf("커피 가격표(아메리카노)");
+{printf("커피 가격표(아메리카노)\n");
 
 for (int size = Short;size<=Venti;size++)
 	{printf("%s : %d\n",SizeName[size],Price_of_Americano[size]);}
@@ -18,7 +18,7 @@ for (int size = Short;size<=Venti;size++)
 
 
 void output_Cappucino(const char SizeName[][10], int Price_of_Cappucino[])
-{printf("커피 가격표(카푸치노)");
+{printf("커피 가격표(카푸치노)\n");
 
 for (int size = Short;size<=Venti;size++)
 	{printf("%s : %d\n",SizeName[size],Price_of_Cappucino[size]);}
