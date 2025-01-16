@@ -27,10 +27,4 @@ for (int size = Short;size<=Venti;size++)
 
 int main(void)
 {output_Americano(SizeName, Price_of_Americano);
-output_Cappucino(SizeName, Price_of_Cappucino);
-
-
-
-
-
-}
+output_Cappucino(SizeName, Price_of_Cappucino);}
